@@ -1,6 +1,6 @@
 Definitions
     1. Method -
     2. Class - A container for related functions
-    3. Function - A Block of code that performs a task
+    3. Function - A Block of code that performs a task. contains methods and classes, objects
     4. Field -
     5. Variable -
