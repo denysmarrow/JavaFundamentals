@@ -1,0 +1,38 @@
+void Name() {
+
+}
+
+Every Java Program should have at least one function
+
+- [ ] Main
+
+	void main() {
+
+}
+
+
+Class - a container for related functions
+
+class Main {
+
+    void main() {
+
+    }
+
+}
+
+
+access modifier >>>> public
+
+
+
+public class Main {
+
+    public void main() {
+
+        }
+
+}
+
+PascalNamingConvention >>> Classes
+camelNamingConvention >>> Methods
