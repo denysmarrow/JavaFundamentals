@@ -3,8 +3,14 @@ Definitions
     2. Class - A container for related functions
     3. Function - A Block of code that performs a task. contains methods and classes, objects
     4. Field -
-    5. Variable -
+
+    5. Variable - temporarily store information in the computers memory
+    there are different types of variables
+
     6. Interpreted and Compiled languages - intelliJ is using the java compiler to compile
     our code into a different format called Java Byte Code. Java runtime enviornment then
     has the Java Virtual Machine that turns our code in Native Code which can be interpreted
     on various platforms. This is why Java is platform independent.
+
+    -Integers- a type of variable that use whole numbers only
+

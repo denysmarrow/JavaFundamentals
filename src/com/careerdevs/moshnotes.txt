@@ -29,12 +29,22 @@ access modifier >>>> public
 public class Main {
 
     public void main() {
+        variable label/identifier = value;
+        }
 
+}
+
+public class Main {
+
+    public void main() {
+        int age = 30;
         }
 
 }
 
 PascalNamingConvention >>> Classes
 camelNamingConvention >>> Methods
+
+
 
 
