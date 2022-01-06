@@ -7,6 +7,6 @@ public class dataTypes {
         float price = 10.99F;
         char letter = 'A';
         boolean isEligible = false;
-        System.out.println(herAge);
+        System.out.println();
     }
 }
