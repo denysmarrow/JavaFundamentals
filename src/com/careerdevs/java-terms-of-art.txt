@@ -13,4 +13,15 @@ Definitions
     on various platforms. This is why Java is platform independent.
 
     -Integers- a type of variable that use whole numbers only
+    -Primitive Types - for storing simple values
+        -byte
+        -short
+        -int
+        -long - all for storing whole numbers^^^^^^
+        -float - can store decimals
+        -double
+        -char - single character
+        -boolean - true/false
+
+    Non-Primitive / Reference Types- complex values
 
