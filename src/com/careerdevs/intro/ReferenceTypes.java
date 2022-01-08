@@ -2,7 +2,7 @@ package com.careerdevs.intro;
 
 import java.util.Date;
 
-public class referenceTypes {
+public class ReferenceTypes {
 
     public static void main(String[] args) {
 
