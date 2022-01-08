@@ -28,3 +28,6 @@ Definitions
         they do not store actual objects. they are used as reference
         and store the address or reference to the object
 
+        Parameters are the holes we define in our methods. Arguments are
+        the actual values that we pass to these methods
+
