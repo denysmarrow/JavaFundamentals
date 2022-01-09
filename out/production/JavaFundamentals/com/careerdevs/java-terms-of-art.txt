@@ -31,3 +31,13 @@ Definitions
         Parameters are the holes we define in our methods. Arguments are
         the actual values that we pass to these methods
 
+        .endsWith - boolean tells you true or false if your string
+        ends with that
+        .startsWith - just like ends with but opposite
+        .indexOf - tells you where a character is using integers
+        .length - number of characters
+        .replace - replace characters in string
+        .trim - takes off
+        .toLowerCase - changes all characters to lower case
+        .toUpperCase - just like lower but opposite
+
