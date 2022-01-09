@@ -41,3 +41,9 @@ Definitions
         .toLowerCase - changes all characters to lower case
         .toUpperCase - just like lower but opposite
 
+      Escape Sequence -
+      \ - escapes double quotes
+      \\ - shows a single backslash
+      \n - new line
+      \t -tab
+
