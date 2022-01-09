@@ -47,3 +47,7 @@ Definitions
       \n - new line
       \t -tab
 
+      Array.sort - sort an array
+      Array.toString - shows your array in a string
+
+
