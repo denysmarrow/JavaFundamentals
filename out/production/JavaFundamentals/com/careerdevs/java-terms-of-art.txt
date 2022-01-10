@@ -51,3 +51,13 @@ Definitions
       Array.toString - shows your array in a string
 
 
+      Constants-
+      adding final in front of a value makes it a constant. it cannot be changed.
+      constants should always be labeled in ALL CAPS
+
+      Implicit Casting-
+        - Can only happen between compatible types
+
+
+
+
