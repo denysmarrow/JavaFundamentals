@@ -58,6 +58,14 @@ Definitions
       Implicit Casting-
         - Can only happen between compatible types
 
+//PROJECT MORTGAGE CALCULATOR
 
+public class Main {
+
+    public static void main(String[] args) {
+         Math.pow
+
+    }
+}
 
 
