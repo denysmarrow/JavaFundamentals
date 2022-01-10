@@ -1,4 +1,4 @@
-package com.careerdevs.intro;
+package com.careerdevs.intro.datatypes;
 
 public class IntroCasting {
     public static void main(String[] args) {

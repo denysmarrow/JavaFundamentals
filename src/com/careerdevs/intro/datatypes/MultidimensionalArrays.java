@@ -1,4 +1,4 @@
-package com.careerdevs.intro;
+package com.careerdevs.intro.datatypes;
 
 import java.util.Arrays;
 
