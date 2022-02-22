@@ -28,4 +28,19 @@ public class MortgageCalculator {
         System.out.println("Mortgage: " + mortgageFormatted);
 
     }
+        public static double calculateBalance(int principal, float annualInterest, byte years, short paymentsMade){
+            final byte MONTHS_IN_YEAR = 12;
+            final byte PERCENT = 100;
+
+            float monthlyInterest = annualInterest / PERCENT / MONTHS_IN_YEAR;
+            int numberOfPayments = years * MONTHS_IN_YEAR;
+
+            double balance = principal * (Math.pow(1 + monthlyInterest, numberOfPayments ))
+
+
+
+        }
+
+
+
 }
