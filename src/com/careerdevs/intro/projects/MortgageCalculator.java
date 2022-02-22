@@ -4,9 +4,12 @@ import java.text.NumberFormat;
 import java.util.Scanner;
 
 public class MortgageCalculator {
+    final static byte MONTHS_IN_YEAR = 12;
+    final static byte PERCENT = 100;
+
     public static void main(String[] args) {
-        final byte MONTHS_IN_YEAR = 12;
-        final byte PERCENT = 100;
+//        final byte MONTHS_IN_YEAR = 12;
+//        final byte PERCENT = 100;
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Principal: ");
@@ -28,14 +31,15 @@ public class MortgageCalculator {
         System.out.println("Mortgage: " + mortgageFormatted);
 
     }
-        public static double calculateBalance(int principal, float annualInterest, byte years, short paymentsMade){
-            final byte MONTHS_IN_YEAR = 12;
-            final byte PERCENT = 100;
+        public static double calculateBalance(int principal, float annualInterest, byte years, short numberOfPaymentsMade){
+
 
             float monthlyInterest = annualInterest / PERCENT / MONTHS_IN_YEAR;
             int numberOfPayments = years * MONTHS_IN_YEAR;
 
-            double balance = principal * (Math.pow(1 + monthlyInterest, numberOfPayments ))
+            double balance = principal * (Math.pow(1 + monthlyInterest, numberOfPayments) -(Math.pow(1 + monthlyInterest, numberOfPaymentsMade )) / (Math.pow(1 + monthlyInterest, numberOfPayments)) );
+
+            return balance;
 
 
 
